@@ -1,0 +1,85 @@
+header{
+    background-color: #6699CC;
+    color: white;
+    display: flex;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 40px;
+}
+header img{
+    width: 170px;
+    height: 170px;
+}
+nav{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #00C8FF;
+   justify-content: center;
+   text-align: center;
+   font-family: "Jersey 25", sans-serif;
+} 
+nav a{
+    font-size: 35px;
+    width: 200px; height: 60pv;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: "Jersey 25", sans-serif;
+}
+nav li{
+    padding: 10px;
+    border: solid 1px black;
+    display: inline-block;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6699CC;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .imagenes img{
+    width: 200px;
+    height: 200px;
+    
+    object-fit: contain;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px, 10px, 20px #000;
+    text-align: center;
+    font-size: 25px;
+    background-color: #6699CC;
+    color: white;
+}
+.card img{
+    width: 300px;
+    border-radius: 20px 20px 0 0 ;
+}
+.targetas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    color: #000;
+}
